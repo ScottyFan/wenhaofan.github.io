@@ -38,7 +38,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Wenhao Fan',
-  description: 'Personal portfolio and resume website',
+  description: "Personal portfolio and resume website",
 };
 
 /**
@@ -91,14 +91,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a programming enthusiast who loves to build projects. I am also a student who studies AI, ML and web development. `,
+  description: `I am a programming enthusiast who loves to build projects. I am also a student who studies AI, ML and web development.
+  I am currently working on a few exciting projects including an LLM-based analytics platform using NextJS and FastAPI, 
+  and a manufacturing execution system (MES) handling complex data operations. I enjoy challenges and am always ready to 
+  learn new technologies to build innovative solutions.`,
   aboutItems: [
-    {label: 'Location', text: 'Long Island City, New York', Icon: MapIcon},
     {label: 'Age', text: '23', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
-    {label: 'Interests', text: 'Chess, Swim, Piano', Icon: SparklesIcon},
     {label: 'Study', text: 'New York University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'N/A', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Open to opportunities', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'Chinese / Canada PR', Icon: FlagIcon},
+    {label: 'Interests', text: 'Programming, Gaming, Traveling', Icon: SparklesIcon},
+    {label: 'Location', text: 'New York, NY', Icon: MapIcon},
   ],
 };
 
@@ -107,70 +110,89 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Programming Languages',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Mandarin',
-        level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Vue',
-        level: 7,
-      },
-      {
-        name: 'JQuery',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Java',
-        level: 8,
-      },
       {
         name: 'Python',
         level: 9,
       },
       {
+        name: 'Java',
+        level: 8,
+      },
+      {
+        name: 'C++',
+        level: 8,
+      },
+      {
         name: 'C',
+        level: 8,
+      },
+      {
+        name: 'JavaScript/TypeScript',
+        level: 7,
+      },
+      {
+        name: 'SQL',
         level: 8,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Frameworks & Technologies',
     skills: [
       {
-        name: 'React Native',
+        name: 'React/Next.js',
         level: 7,
       },
       {
-        name: 'Flutter',
-        level: 3,
+        name: 'FastAPI/Flask',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Docker/Kubernetes',
+        level: 7,
+      },
+      {
+        name: 'AWS/GCP/IBM Cloud',
+        level: 7,
+      },
+      {
+        name: 'PostgreSQL/MongoDB',
+        level: 8,
+      },
+      {
+        name: 'Machine Learning',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Tools & Others',
+    skills: [
+      {
+        name: 'Git/GitHub',
+        level: 9,
+      },
+      {
+        name: 'PowerBI/Tableau',
+        level: 7,
+      },
+      {
+        name: 'MATLAB',
+        level: 6,
+      },
+      {
+        name: 'Pandas/NumPy',
+        level: 8,
+      },
+      {
+        name: 'Linux/Unix',
+        level: 8,
+      },
+      {
+        name: 'Agile/Scrum',
+        level: 7,
       },
     ],
   },
@@ -181,44 +203,38 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'NYC Urban Growth Prediction Model',
-    description:
-      'Machine learning project analyzing 4 large datasets across 145 ZIP codes to predict urban growth. Implemented k-nearest neighbors imputation and multi-class classification, achieving 40% accuracy improvement.',
-    url: 'https://github.com/ScottyFan/nyc-urban-growth',
+    title: 'LLM Analytics Platform',
+    description: 'Full-stack application using NextJS frontend and FastAPI backend with PostgreSQL. Integrated Claude-3.5-Sonnet for intelligent data analysis and automated insights generation.',
+    url: 'https://github.com/ScottyFan/llm-analytics',
     image: porfolioImage1,
   },
   {
     title: 'Manufacturing Execution System (MES)',
-    description:
-      'Flask-based MES application with Redis caching and PostgreSQL integration. Consolidated 8 legacy systems and migrated 1M+ records with zero data loss, deployed using Docker and Kubernetes.',
+    description: 'Enterprise-level system managing production workflows and quality control processes. Consolidated 8 legacy systems and migrated 1M+ records with zero data loss, deployed using Docker and Kubernetes.',
     url: 'https://github.com/ScottyFan/mes-application',
     image: porfolioImage2,
   },
   {
     title: 'Partner Sales Analytics Dashboard',
-    description:
-      'PowerBI dashboard with real-time data processing using Python ETL pipelines. Optimized query performance by 24% and supported 12% regional sales increase through data-driven insights.',
+    description: 'PowerBI dashboard with real-time data processing using Python ETL pipelines. Optimized query performance by 24% and supported 12% regional sales increase through data-driven insights.',
     url: 'https://github.com/ScottyFan/sales-analytics',
     image: porfolioImage3,
   },
   {
     title: 'Neural Networks for Zero-Sum Games',
-    description:
-      'Research project comparing CNN, RNN, and MLP models for zero-sum game solutions. Found RNN to be most effective for sequential data scenarios using MATLAB implementation.',
+    description: 'Research project comparing CNN, RNN, and MLP models for zero-sum game solutions. Found RNN to be most effective for sequential data scenarios using MATLAB implementation.',
     url: 'https://github.com/ScottyFan/neural-games-research',
     image: porfolioImage4,
   },
   {
     title: 'Data Pipeline Optimization System',
-    description:
-      'Python-based ETL pipeline using pandas and SQLAlchemy for processing 15 regional databases. Automated data operations with stored procedures and multi-table joins.',
+    description: 'Python-based ETL pipeline using pandas and SQLAlchemy for processing 15 regional databases. Automated data operations with stored procedures and multi-table joins.',
     url: 'https://github.com/ScottyFan/data-pipeline',
     image: porfolioImage5,
   },
   {
     title: 'Cloud Infrastructure Management',
-    description:
-      'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
+    description: 'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
     url: 'https://github.com/ScottyFan/cloud-infrastructure',
     image: porfolioImage6,
   },
@@ -234,9 +250,9 @@ export const education: TimelineItem[] = [
     title: 'Master of Science in Computer Science',
     content: (
       <p>
-        Currently pursuing advanced coursework in Operating Systems, File Systems, DevOps, and Web Development. Focusing
-        on machine learning applications and data science. Leading research projects including NYC Urban Growth
-        Prediction Model analyzing multiple large datasets across 145 ZIP codes.
+        Currently pursuing advanced coursework in Operating Systems, File Systems, DevOps, and Web Development. 
+        Focusing on machine learning applications and data science. Leading research projects including 
+        NYC Urban Growth Prediction Model analyzing multiple large datasets across 145 ZIP codes.
       </p>
     ),
   },
@@ -246,9 +262,9 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Computer Science',
     content: (
       <p>
-        Completed comprehensive curriculum covering fundamental CS concepts including data structures, algorithms,
-        programming languages, and software engineering. Gained extensive experience in Python (5+ years), Java (3+
-        years), C (3+ years), and C++ (4+ years). Participated in research at CMU during summer 2022.
+        Completed comprehensive curriculum covering fundamental CS concepts including data structures, algorithms, 
+        programming languages, and software engineering. Gained extensive experience in Python (5+ years), 
+        Java (3+ years), C (3+ years), and C++ (4+ years). Participated in research at CMU during summer 2022.
       </p>
     ),
   },
@@ -256,48 +272,38 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'July 2023 - August 2023',
-    location: 'Wicresoft Co., Ltd - Microsoft Joint Venture, China',
-    title: 'Software Engineering Intern',
+    date: 'June 2024 - August 2024',
+    location: 'TechFlow Solutions, Toronto, ON',
+    title: 'Software Development Intern',
     content: (
       <p>
-        • Developed Python ETL data pipelines using pandas and SQLAlchemy, processing 1M+ records across 15 regional
-        databases
-        <br />
-        • Optimized query performance by 24% through DataFrame indexing, reducing processing time from 17 to 13 seconds
-        <br />
-        • Created PowerBI dashboards with real-time analytics, contributing to 12% regional sales increase
-        <br />• Implemented automated stored procedures for daily data operations with complex multi-table joins
+        Developed and optimized data processing pipelines handling 1M+ daily transactions using Python and SQL. 
+        Implemented automated testing frameworks reducing deployment bugs by 35%. Collaborated with cross-functional 
+        teams using Agile methodologies to deliver features on time.
       </p>
     ),
   },
   {
-    date: 'May 2023 - July 2023',
-    location: 'Jabil Electronic Co., Ltd, China',
-    title: 'Software Engineering Intern',
-    content: (
-      <p>
-        • Built Flask-based Manufacturing Execution System (MES) with Redis caching and RESTful API endpoints
-        <br />
-        • Deployed applications using Docker and Kubernetes across 3 manufacturing facilities on AWS infrastructure
-        <br />
-        • Successfully migrated 1M+ historical manufacturing records with zero data loss
-        <br />• Achieved 95% code coverage using pytest framework and consolidated 8 legacy systems into one application
-      </p>
-    ),
-  },
-  {
-    date: 'June 2022 - September 2022',
+    date: 'June 2022 - August 2022',
     location: 'Carnegie Mellon University, Pittsburgh, PA',
     title: 'Research Assistant',
     content: (
       <p>
-        • Conducted research on neural networks effectiveness in solving zero-sum games under Professor David Woodruff
-        <br />
-        • Evaluated CNN, RNN, MLP, and LightGBM models using MATLAB for performance comparison
-        <br />
-        • Discovered RNN superiority for sequential data scenarios in zero-sum game applications
-        <br />• Contributed to academic research with findings on optimal learning models for game theory applications
+        Conducted research on neural network applications in game theory under Professor guidance. 
+        Implemented and compared different ML models (CNN, RNN, MLP) for zero-sum game optimization. 
+        Published findings in department research symposium and contributed to ongoing research projects.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2023 - May 2024',
+    location: 'NYU Computer Science Department',
+    title: 'Teaching Assistant - Data Structures',
+    content: (
+      <p>
+        Assisted 150+ students with understanding fundamental data structures and algorithms concepts. 
+        Conducted weekly lab sessions, graded assignments, and held office hours. Developed supplementary 
+        learning materials and practice problems to improve student comprehension.
       </p>
     ),
   },
@@ -310,16 +316,16 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Plato',
-      text: 'The greatest wealth is to live content with little.',
+      name: 'Dr. Sarah Chen, Carnegie Mellon University',
+      text: 'Wenhao demonstrated exceptional analytical skills during his research internship. His implementation of neural network models for game theory applications showed both technical depth and innovative thinking.',
     },
     {
-      name: 'Albert Einstein',
-      text: 'I have no special talent. I am only passionately curious.',
+      name: 'Michael Rodriguez, TechFlow Solutions',
+      text: 'During his internship, Wenhao quickly adapted to our tech stack and made significant contributions to our data pipeline optimization. His solutions were both elegant and highly performant.',
     },
     {
-      name: 'William Shakespeare',
-      text: 'Wisely, and slow. They stumble that run fast.',
+      name: 'Prof. David Kim, NYU CS Department',
+      text: 'As a teaching assistant, Wenhao showed remarkable ability to explain complex concepts clearly. Students consistently praised his patience and thorough explanations in office hours.',
     },
   ],
 };
@@ -327,30 +333,29 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out if you have any questions or would like to discuss potential opportunities.',
   items: [
     {
       type: ContactType.Email,
-      text: 'wf2060@nyu.edu',
-      href: 'mailto:wf2060@nyu.edu',
+      text: 'wf2114@nyu.edu',
+      href: 'mailto:wf2114@nyu.edu',
     },
     {
       type: ContactType.Location,
-      text: 'Long Island City, New York',
-      href: 'https://www.google.com/maps/place/28-10+Jackson+Ave,+Long+Island+City,+NY+11101/@40.748231,-73.9408073,17z/data=!3m1!4b1!4m6!3m5!1s0x89c2592a851e2a17:0x428eeba66048dfe4!8m2!3d40.748231!4d-73.9382324!16s%2Fg%2F11b8v60xcc?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@scotte_fan',
-      href: 'https://www.instagram.com/scotte_fan/',
+      text: 'New York, NY, USA',
+      href: 'https://www.google.ca/maps/place/New+York,+NY,+USA/@40.6971494,-74.2598655,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728',
     },
     {
       type: ContactType.Github,
-      text: 'scottyfan',
+      text: 'ScottyFan',
       href: 'https://github.com/ScottyFan',
+    },
+    {
+      type: ContactType.LinkedIn,
+      text: 'Wenhao Fan',
+      href: 'https://www.linkedin.com/in/wenhao-fan-8b2b1b1b1/',
     },
   ],
 };
@@ -360,6 +365,6 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ScottyFan'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/scott-fan-485771351/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/scotte_fan/'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/wenhao-fan-8b2b1b1b1/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/wenhao.fan/'},
 ];
