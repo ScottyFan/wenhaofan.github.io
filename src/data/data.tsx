@@ -38,7 +38,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Wenhao Fan',
-  description: "Personal portfolio and resume website",
+  description: 'Personal portfolio and resume website',
 };
 
 /**
@@ -182,37 +182,43 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'NYC Urban Growth Prediction Model',
-    description: 'Machine learning project analyzing 4 large datasets across 145 ZIP codes to predict urban growth. Implemented k-nearest neighbors imputation and multi-class classification, achieving 40% accuracy improvement.',
+    description:
+      'Machine learning project analyzing 4 large datasets across 145 ZIP codes to predict urban growth. Implemented k-nearest neighbors imputation and multi-class classification, achieving 40% accuracy improvement.',
     url: 'https://github.com/ScottyFan/nyc-urban-growth',
     image: porfolioImage1,
   },
   {
     title: 'Manufacturing Execution System (MES)',
-    description: 'Flask-based MES application with Redis caching and PostgreSQL integration. Consolidated 8 legacy systems and migrated 1M+ records with zero data loss, deployed using Docker and Kubernetes.',
+    description:
+      'Flask-based MES application with Redis caching and PostgreSQL integration. Consolidated 8 legacy systems and migrated 1M+ records with zero data loss, deployed using Docker and Kubernetes.',
     url: 'https://github.com/ScottyFan/mes-application',
     image: porfolioImage2,
   },
   {
     title: 'Partner Sales Analytics Dashboard',
-    description: 'PowerBI dashboard with real-time data processing using Python ETL pipelines. Optimized query performance by 24% and supported 12% regional sales increase through data-driven insights.',
+    description:
+      'PowerBI dashboard with real-time data processing using Python ETL pipelines. Optimized query performance by 24% and supported 12% regional sales increase through data-driven insights.',
     url: 'https://github.com/ScottyFan/sales-analytics',
     image: porfolioImage3,
   },
   {
     title: 'Neural Networks for Zero-Sum Games',
-    description: 'Research project comparing CNN, RNN, and MLP models for zero-sum game solutions. Found RNN to be most effective for sequential data scenarios using MATLAB implementation.',
+    description:
+      'Research project comparing CNN, RNN, and MLP models for zero-sum game solutions. Found RNN to be most effective for sequential data scenarios using MATLAB implementation.',
     url: 'https://github.com/ScottyFan/neural-games-research',
     image: porfolioImage4,
   },
   {
     title: 'Data Pipeline Optimization System',
-    description: 'Python-based ETL pipeline using pandas and SQLAlchemy for processing 15 regional databases. Automated data operations with stored procedures and multi-table joins.',
+    description:
+      'Python-based ETL pipeline using pandas and SQLAlchemy for processing 15 regional databases. Automated data operations with stored procedures and multi-table joins.',
     url: 'https://github.com/ScottyFan/data-pipeline',
     image: porfolioImage5,
   },
   {
     title: 'Cloud Infrastructure Management',
-    description: 'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
+    description:
+      'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
     url: 'https://github.com/ScottyFan/cloud-infrastructure',
     image: porfolioImage6,
   },
@@ -228,9 +234,9 @@ export const education: TimelineItem[] = [
     title: 'Master of Science in Computer Science',
     content: (
       <p>
-        Currently pursuing advanced coursework in Operating Systems, File Systems, DevOps, and Web Development. 
-        Focusing on machine learning applications and data science. Leading research projects including 
-        NYC Urban Growth Prediction Model analyzing multiple large datasets across 145 ZIP codes.
+        Currently pursuing advanced coursework in Operating Systems, File Systems, DevOps, and Web Development. Focusing
+        on machine learning applications and data science. Leading research projects including NYC Urban Growth
+        Prediction Model analyzing multiple large datasets across 145 ZIP codes.
       </p>
     ),
   },
@@ -240,9 +246,9 @@ export const education: TimelineItem[] = [
     title: 'Bachelor of Science in Computer Science',
     content: (
       <p>
-        Completed comprehensive curriculum covering fundamental CS concepts including data structures, algorithms, 
-        programming languages, and software engineering. Gained extensive experience in Python (5+ years), 
-        Java (3+ years), C (3+ years), and C++ (4+ years). Participated in research at CMU during summer 2022.
+        Completed comprehensive curriculum covering fundamental CS concepts including data structures, algorithms,
+        programming languages, and software engineering. Gained extensive experience in Python (5+ years), Java (3+
+        years), C (3+ years), and C++ (4+ years). Participated in research at CMU during summer 2022.
       </p>
     ),
   },
@@ -255,10 +261,13 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineering Intern',
     content: (
       <p>
-        • Developed Python ETL data pipelines using pandas and SQLAlchemy, processing 1M+ records across 15 regional databases<br/>
-        • Optimized query performance by 24% through DataFrame indexing, reducing processing time from 17 to 13 seconds<br/>
-        • Created PowerBI dashboards with real-time analytics, contributing to 12% regional sales increase<br/>
-        • Implemented automated stored procedures for daily data operations with complex multi-table joins
+        • Developed Python ETL data pipelines using pandas and SQLAlchemy, processing 1M+ records across 15 regional
+        databases
+        <br />
+        • Optimized query performance by 24% through DataFrame indexing, reducing processing time from 17 to 13 seconds
+        <br />
+        • Created PowerBI dashboards with real-time analytics, contributing to 12% regional sales increase
+        <br />• Implemented automated stored procedures for daily data operations with complex multi-table joins
       </p>
     ),
   },
@@ -268,10 +277,12 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineering Intern',
     content: (
       <p>
-        • Built Flask-based Manufacturing Execution System (MES) with Redis caching and RESTful API endpoints<br/>
-        • Deployed applications using Docker and Kubernetes across 3 manufacturing facilities on AWS infrastructure<br/>
-        • Successfully migrated 1M+ historical manufacturing records with zero data loss<br/>
-        • Achieved 95% code coverage using pytest framework and consolidated 8 legacy systems into one application
+        • Built Flask-based Manufacturing Execution System (MES) with Redis caching and RESTful API endpoints
+        <br />
+        • Deployed applications using Docker and Kubernetes across 3 manufacturing facilities on AWS infrastructure
+        <br />
+        • Successfully migrated 1M+ historical manufacturing records with zero data loss
+        <br />• Achieved 95% code coverage using pytest framework and consolidated 8 legacy systems into one application
       </p>
     ),
   },
@@ -281,10 +292,12 @@ export const experience: TimelineItem[] = [
     title: 'Research Assistant',
     content: (
       <p>
-        • Conducted research on neural networks effectiveness in solving zero-sum games under Professor David Woodruff<br/>
-        • Evaluated CNN, RNN, MLP, and LightGBM models using MATLAB for performance comparison<br/>
-        • Discovered RNN superiority for sequential data scenarios in zero-sum game applications<br/>
-        • Contributed to academic research with findings on optimal learning models for game theory applications
+        • Conducted research on neural networks effectiveness in solving zero-sum games under Professor David Woodruff
+        <br />
+        • Evaluated CNN, RNN, MLP, and LightGBM models using MATLAB for performance comparison
+        <br />
+        • Discovered RNN superiority for sequential data scenarios in zero-sum game applications
+        <br />• Contributed to academic research with findings on optimal learning models for game theory applications
       </p>
     ),
   },
@@ -348,5 +361,5 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ScottyFan'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/scott-fan-485771351/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/scotte_fan/'}
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/scotte_fan/'},
 ];
