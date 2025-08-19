@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import profilepic from '../images/wenhao_pic.jpg';
