@@ -184,42 +184,14 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'NYC Urban Growth Prediction Model',
     description:
       'Machine learning project analyzing 4 large datasets across 145 ZIP codes to predict urban growth. Implemented k-nearest neighbors imputation and multi-class classification, achieving 40% accuracy improvement.',
-    url: 'https://github.com/ScottyFan/nyc-urban-growth',
+    href: '/assets/PA.pdf',
     image: porfolioImage1,
-  },
-  {
-    title: 'Manufacturing Execution System (MES)',
-    description:
-      'Flask-based MES application with Redis caching and PostgreSQL integration. Consolidated 8 legacy systems and migrated 1M+ records with zero data loss, deployed using Docker and Kubernetes.',
-    url: 'https://github.com/ScottyFan/mes-application',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Partner Sales Analytics Dashboard',
-    description:
-      'PowerBI dashboard with real-time data processing using Python ETL pipelines. Optimized query performance by 24% and supported 12% regional sales increase through data-driven insights.',
-    url: 'https://github.com/ScottyFan/sales-analytics',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Neural Networks for Zero-Sum Games',
-    description:
-      'Research project comparing CNN, RNN, and MLP models for zero-sum game solutions. Found RNN to be most effective for sequential data scenarios using MATLAB implementation.',
-    url: 'https://github.com/ScottyFan/neural-games-research',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Data Pipeline Optimization System',
-    description:
-      'Python-based ETL pipeline using pandas and SQLAlchemy for processing 15 regional databases. Automated data operations with stored procedures and multi-table joins.',
-    url: 'https://github.com/ScottyFan/data-pipeline',
-    image: porfolioImage5,
   },
   {
     title: 'Cloud Infrastructure Management',
     description:
       'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
-    url: 'https://github.com/ScottyFan/cloud-infrastructure',
+    url: 'https://https://github.com/ScottyFan/P2PandBlockchain',
     image: porfolioImage6,
   },
 ];
