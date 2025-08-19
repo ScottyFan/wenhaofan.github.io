@@ -13,10 +13,6 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import profilepic from '../images/wenhao_pic.jpg';
@@ -184,14 +180,14 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'NYC Urban Growth Prediction Model',
     description:
       'Machine learning project analyzing 4 large datasets across 145 ZIP codes to predict urban growth. Implemented k-nearest neighbors imputation and multi-class classification, achieving 40% accuracy improvement.',
-    href: '/assets/PA.pdf',
+    url: 'https://github.com/ScottyFan/NYC-Urban-Growth-Prediction-Model',
     image: porfolioImage1,
   },
   {
     title: 'Cloud Infrastructure Management',
     description:
       'Multi-cloud deployment solution using AWS, GCP, and IBM Cloud. Implemented containerized microservices with Docker and Kubernetes orchestration for manufacturing systems.',
-    url: 'https://https://github.com/ScottyFan/P2PandBlockchain',
+    url: 'https://github.com/ScottyFan/P2PandBlockchain',
     image: porfolioImage6,
   },
 ];
